@@ -6,7 +6,7 @@ import { useRecoilValue } from "recoil";
 import { userState } from "../../../store/userState";
 
 export const UserIconWithName = memo((props) => {
-  console.log(UserIconWithName);
+  // console.log(UserIconWithName);
 
   const { img, name } = props;
   // const { userInfo } = useContext(UserContext);
